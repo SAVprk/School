@@ -2012,3 +2012,9 @@ ul {
         width: 460px;
     }
 }
+@media screen and (max-width:320px){
+body {
+        min-width: 320px;
+    }
+}
+    
