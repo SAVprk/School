@@ -1,5 +1,6 @@
 @import url(fonts.css);
 
+html,
 body {
     width: 100%;
     min-width: 1440px;
@@ -1172,7 +1173,7 @@ ul {
 }
 
 @media screen and (max-width:1000px) {
-
+    html,
     body {
         min-width: 1000px;
     }
@@ -1400,7 +1401,7 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
-
+    html,
     body {
         min-width: 768px;
     }
@@ -1754,7 +1755,7 @@ ul {
 }
 
 @media screen and (max-width: 480px) {
-
+    html,
     body {
         min-width: 480px;
     }
@@ -2009,7 +2010,8 @@ ul {
     }
 }
 @media screen and (max-width:320px){
-body {
+    html,
+    body {
         min-width: 320px;
     }
     .wrapper{
