@@ -33,8 +33,8 @@ a {
 
 
 .wrapper {
-    width: 1140px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 1140px;
     margin: 0 auto;
     /* padding-top: 15px;  */
 }
@@ -1180,7 +1180,7 @@ ul {
     }
 
     .wrapper {
-        width: 900px;
+        max-width: 900px;
     }
 
     .slider_title {
@@ -1409,7 +1409,7 @@ ul {
     }
 
     .wrapper {
-        width: 688px;
+        max-width: 688px;
     }
 
     .slider_wrapper {
@@ -1764,7 +1764,7 @@ ul {
     }
 
     .wrapper {
-        width: 440px;
+        max-width: 440px;
     }
 
     .slider_wrapper {
@@ -2015,6 +2015,9 @@ ul {
 @media screen and (max-width:320px){
 body {
         min-width: 320px;
+    }
+    .wrapper{
+        max-width:300px
     }
 }
     
